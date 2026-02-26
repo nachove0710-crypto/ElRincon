@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  
+        <header>
+    <!-- titulo y sub titulo -->
+    <h1>El Rincón</h1>
+    <!-- titulo y sub titulo -->
+    <h4>Las Recomendaciones de esta semana son:</h4>
+</header>
+    
+<main>
+  <!--albumes recomendados de la semana-->
+  <section>
+      <article class="album">
+      <a href="pages/dela.html"><img src="img/dela.avif" alt="Album de Delaossa"> </a>
+      <strong>La Madrugá</strong>
+      <p>Delaossa</p>
+      <p>Rap/Trap/</p>
+      </article>
+
+      <article class="album">
+      <a href="pages/dano.html"><img src="img/dano.jpg" alt="Album de Dano"></a>
+      <strong>El Hombre Hace Planes Dios Se Rie </strong>
+      <p>Dano</p>
+      <p>Rap/A&B/Trap</p>
+    </article>
+       <article class="album"> 
+      <a href="pages/cruz.html"><img src="img/cruz.avif" alt="Album de Cafune"></a>
+      <strong>Me Muevo Con Dios</strong>
+      <p>Cruz Cafune</p>
+      <p>Rap/Trap/Reggaeton</p>
+  </article>
+  </section>
+</main> 
+
+<div class="comentarios"> 
+<p> Te invitamos a dejar tu recomendacion para la proxima semana. </p>
+      
+ <form class="comentarios">
+ <textarea placeholder="Cuentanos que te gustaria recomendar... "></textarea>
+ <button>Publicar</button>
+</form>
+</div>
+
+<!-- Pie de pagina --> 
+<footer>
+    
+<div class="redes-sociales">
+    <h4> Redes Sociales</h4>
+<a href="https://www.instagram.com/nach.ve" target="_blank">
+instagram
+<a href="https://x.com/veliznacho" target="_blank">
+x 
+</a>
+</a>
+<a href="https://open.spotify.com/intl-es/album/3Au0IW8JlUTwsvT4Ym6yL7?si=LstodeD1QRaUoXpnEcf9bw" target="_blank">
+Spotify 
+</a>
+</div>
+  <div class="registro">
+  <h4>Registrate</h4>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="ejemplo@mail.com" required>
+
+
+  <label for="password">Contraseña:</label><br>
+  <input type="password" id="password" name="password" placeholder="********" required>
+
+  <button type="submit">Registrarse</button>
+      </div>
+<form>
+  
+</form>
+</div>
+<div class="info">
+<h4>Acerca de nosotros:</h4>
+<p>El Rincón es un blog que los invita a compartir esas obras que a uno lo acompañan día a día y que así estas lleguen a oyentes nuevos.
+</p>
+</div>
+</footer> 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
